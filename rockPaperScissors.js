@@ -3,9 +3,6 @@ let computerCount = 0;
 let roundCount = 0;
 let totalResult = 0;
 
-
-
-
 function computerPlay(){
     let x = Math.floor(Math.random()*3);
     let computerChoice = ""
@@ -37,10 +34,6 @@ function playerPlay(){
     return playerChoice;
 }
 
-
-
-
-
 function playRound(){
     let playerSelection = playerPlay();
     let computerSelection = computerPlay();
@@ -66,9 +59,7 @@ function playRound(){
     document.getElementById("computerChoice").innerHTML = computerSelection;
     document.getElementById("playerChoice").innerHTML = playerSelection;
     document.getElementById("roundResult").innerHTML = result;
-    
-   
-
+  
 }
 
 function game(){
