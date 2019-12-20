@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <meta lang="en">
+    <head>
+
+    </head>
+    <body>
+        <h2>The magnifficent Rock Paper Scissors game</h2>
+        <p>Can you beat your PC?</p>
+        <form id="rps">
+            <input type="text" id="inputText" name="inputText">
+            <input type="button" id="goBtn" name="button" value="GO" onclick="game()">
+            <input type="button" id="clrBtn" name="button" value="clear" onclick="restart()">
+        </form>
+        <p>Round: </p><p id="rndCount"></p><p>Result:</p><p id="roundResult"></p>
+        <p>Computer: </p><p id="computerChoice"></p><p id="compCount"></p>
+        <p>Player: </p><p id="playerChoice"></p><p id="playCount"></p>
+        <br>
+        <br>
+        <p>Result:</p>
+        <h1 id="totalResult"></h1>
+       
+
+
+        <script src="rockPaperScissors.js">
+           
+        </script>
+    </body>
+</html>
