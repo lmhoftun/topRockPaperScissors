@@ -3,6 +3,7 @@ let computerCount = 0;
 let roundCount = 0;
 let totalResult = 0;
 
+// get computers choice
 function computerPlay(){
     let x = Math.floor(Math.random()*3);
     let computerChoice = ""
